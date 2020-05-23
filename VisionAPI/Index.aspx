@@ -38,6 +38,10 @@
         .auto-style8 {
             font-weight: bold;
         }
+        .auto-style9 {
+            font-size: x-large;
+            color: #6600FF;
+        }
     </style>
 </head>
 <body>
@@ -47,7 +51,7 @@
     <table style="width: 100%;" border="1">
         <tr>
             <td class="auto-style1" colspan="2">
-                <span class="auto-style4"><strong><span class="auto-style7">Infosys MS Azure Hackathon Experiment - Image Analysis using Vision APIs - A Step towards </span></strong></span><span class="auto-style6" style="font-family: Calibri; mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-bidi-font-family: Arial; font-variant: normal; text-transform: none; letter-spacing: 0pt; language: en-US; font-style: normal; vertical-align: baseline; mso-text-raise: 0%"><strong><span class="auto-style5">Internet of Recognition (Real Time Events Recognition)</span></strong></span></td>
+                <span class="auto-style4"><strong><span class="auto-style7">Image Analysis using Azure Vision APIs - A Step towards </span></strong></span><span class="auto-style6" style="font-family: Calibri; mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-bidi-font-family: Arial; font-variant: normal; text-transform: none; letter-spacing: 0pt; language: en-US; font-style: normal; vertical-align: baseline; mso-text-raise: 0%"><strong><span class="auto-style5">Internet of Recognition (</span><span class="auto-style9" style="font-family: Calibri; mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-bidi-font-family: Arial; font-variant: normal; text-transform: none; letter-spacing: 0pt; language: en-US; font-style: normal; vertical-align: baseline; mso-text-raise: 0%">Real Time Events Recognition to help in Covid Response</span><span class="auto-style6" style="font-family: Calibri; mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-bidi-font-family: Arial; font-variant: normal; text-transform: none; letter-spacing: 0pt; language: en-US; font-style: normal; vertical-align: baseline; mso-text-raise: 0%">)</span></span></strong></td>
             <td rowspan="7">
 
     
@@ -62,7 +66,6 @@
                     <asp:ListItem>Traffic Accident</asp:ListItem>
                     <asp:ListItem>Celebrities</asp:ListItem>
                     <asp:ListItem>Violence</asp:ListItem>
-                    <asp:ListItem>Guns</asp:ListItem>
                     <asp:ListItem>Brands</asp:ListItem>
                     <asp:ListItem>Mix</asp:ListItem>
                 </asp:DropDownList>

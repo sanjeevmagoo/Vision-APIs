@@ -2,6 +2,7 @@
 Imports System.Xml
 Imports Newtonsoft.Json.Linq
 
+
 Public Class WebForm1
     Inherits System.Web.UI.Page
 
@@ -10,12 +11,11 @@ Public Class WebForm1
 
 
 
-
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
-        Dim jsonPost As New JsonPost("https://computervision2020-azure.cognitiveservices.azure.com/vision/v2.0/analyze?visualFeatures=Description,ImageType,Objects,Tags,Brands,Adult,Categories,Color,Faces&details=Landmarks,Celebrities&language=en")
+        Dim jsonPost As New JsonPost("https://centralindia.api.cognitive.microsoft.com/vision/v2.0/analyze?visualFeatures=Description,ImageType,Objects,Tags,Brands,Adult,Categories,Color,Faces&details=Landmarks,Celebrities&language=en")
 
         Dim dictData As New Dictionary(Of String, Object)
 
@@ -116,7 +116,9 @@ Public Class WebForm1
         If DropDownList1.Text = "Guns" Then
 
 
-            Dim jsonPost1 As New JsonPost("https://eastus.api.cognitive.microsoft.com/customvision/v3.0/Prediction/9d1be530-7620-48e3-8ca1-31f88343f2bc/detect/iterations/Iteration2/url")
+
+
+            Dim jsonPost1 As New JsonPost("https://centralindia.api.cognitive.microsoft.com/vision/v2.0/analyze?visualFeatures=Description,ImageType,Objects,Tags,Brands,Adult,Categories,Color,Faces&details=Landmarks,Celebrities&language=en")
 
             Dim dictData1 As New Dictionary(Of String, Object)
 
@@ -166,29 +168,26 @@ Public Class WebForm1
             Case "Traffic Accident" 'each record is inside the entries array
                 lblGuns.Visible = False
 
-                TextBox1.Text = "https://i.ytimg.com/vi/apACfPmcMQE/maxresdefault.jpg"
+                TextBox1.Text = "https://lerablog.org/wp-content/uploads/2015/04/Wedding-Drone.jpg"
                 Button1.Enabled = True
             Case "Celebrities" 'each record is inside the entries array
                 lblGuns.Visible = False
 
-                TextBox1.Text = "https://www.businessinsider.in/photo/67318931/here-were-the-most-memorable-hugs-indian-politicians-unleashed-on-their-opponents-in-2018.jpg"
+                TextBox1.Text = "https://dronelife.com/wp-content/uploads/2015/05/maxresdefault1.jpg"
                 Button1.Enabled = True
             Case "Violence" 'each record is inside the entries array
                 lblGuns.Visible = False
 
-                TextBox1.Text = "https://i.ytimg.com/vi/XCIfasdMkX4/maxresdefault.jpg"
+                TextBox1.Text = "https://societemagazine.com/wp-content/uploads/2017/01/632327956-protesters-walk-during-the-womens-march-on-washington.jpg.CROP_.promo-xlarge2.jpg"
                 Button1.Enabled = True
             Case "Guns" 'each record is inside the entries array
                 TextBox1.Text = "https://www.fwweekly.com/wp-content/uploads/2014/04/guns.jpg"
                 Button1.Enabled = True
 
-
-
-
             Case "Brands" 'each record is inside the entries array
                 lblGuns.Visible = False
 
-                TextBox1.Text = "https://tobuz-dev-bkt.s3.amazonaws.com/15196638401591519663840146jemc7950093148145042086.jpg"
+                TextBox1.Text = "https://s32152.pcdn.co/wp-content/uploads/2019/04/01-flying-drone-malawi-first-emergency-deployment.jpg"
                 Button1.Enabled = True
 
             Case "Mix" 'each record is inside the entries array
