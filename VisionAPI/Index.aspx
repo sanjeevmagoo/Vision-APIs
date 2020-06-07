@@ -51,7 +51,9 @@
     <table style="width: 100%;" border="1">
         <tr>
             <td class="auto-style1" colspan="2">
-                <span class="auto-style4"><strong><span class="auto-style7">Image Analysis using Azure Vision APIs - A Step towards </span></strong></span><span class="auto-style6" style="font-family: Calibri; mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-bidi-font-family: Arial; font-variant: normal; text-transform: none; letter-spacing: 0pt; language: en-US; font-style: normal; vertical-align: baseline; mso-text-raise: 0%"><strong><span class="auto-style5">Internet of Recognition (</span><span class="auto-style9" style="font-family: Calibri; mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-bidi-font-family: Arial; font-variant: normal; text-transform: none; letter-spacing: 0pt; language: en-US; font-style: normal; vertical-align: baseline; mso-text-raise: 0%">Real Time Events Recognition to help in Covid Response</span><span class="auto-style6" style="font-family: Calibri; mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-bidi-font-family: Arial; font-variant: normal; text-transform: none; letter-spacing: 0pt; language: en-US; font-style: normal; vertical-align: baseline; mso-text-raise: 0%">)</span></span></strong></td>
+                <span class="auto-style4"><strong><span class="auto-style7">Image Analysis using Azure Vision APIs - A Step towards </span></strong></span><span class="auto-style6" style="font-family: Calibri; mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-bidi-font-family: Arial; font-variant: normal; text-transform: none; letter-spacing: 0pt; language: en-US; font-style: normal; vertical-align: baseline; mso-text-raise: 0%"><strong><span class="auto-style5">Internet of Recognition 
+                <br />
+                (</span><span class="auto-style9" style="font-family: Calibri; mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-bidi-font-family: Arial; font-variant: normal; text-transform: none; letter-spacing: 0pt; language: en-US; font-style: normal; vertical-align: baseline; mso-text-raise: 0%">Real Time Events Recognition to help in Covid Response</span><span class="auto-style6" style="font-family: Calibri; mso-ascii-font-family: Calibri; mso-fareast-font-family: Calibri; mso-bidi-font-family: Arial; font-variant: normal; text-transform: none; letter-spacing: 0pt; language: en-US; font-style: normal; vertical-align: baseline; mso-text-raise: 0%">)</span></span></strong></td>
             <td rowspan="7">
 
     
@@ -113,7 +115,7 @@
                 <asp:Label ID="lblCelebs" runat="server" Text="Label" Visible="False"></asp:Label>
             </td>
         </tr>
-    </table>
+        </table>
         </form>
 </body>
 </html>

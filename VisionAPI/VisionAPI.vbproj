@@ -189,10 +189,18 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bot.aspx" />
     <Content Include="Web.config" />
     <Content Include="Index.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bot.aspx.designer.vb">
+      <DependentUpon>Bot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bot.aspx.vb">
+      <DependentUpon>Bot.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="JsonPost.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
